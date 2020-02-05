@@ -1,0 +1,23 @@
+AnchorPane {
+    -fx-background-color: black;
+}
+
+#textArea {
+    -fx-control-inner-background: black;
+    -fx-border-color: black;
+    -fx-background-color: black;
+}
+
+#inputField {
+    -fx-control-inner-background: black;
+    -fx-border-color: black;
+    -fx-background-color: black;
+}
+
+.scroll-bar {
+    -fx-background-color: black;
+}
+
+.thumb {
+    -fx-background-color: rgba(43, 43, 43, 1);
+}

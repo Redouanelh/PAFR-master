@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@cli.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.richrail.presentation.cli.CLIController">
+
+   <children>
+      <TextField fx:id="inputField" layoutX="12.0" layoutY="350.0" onAction="#onEnter" prefHeight="35.0" prefWidth="576.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></TextField>
+      <TextArea fx:id="textArea" editable="false" layoutX="14.0" layoutY="25.0" prefHeight="328.0" prefWidth="590.0" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></TextArea>
+      <Label id="label" layoutX="14.0" layoutY="14.0" text="©2019 RichRail corporation.  All rights reserved." textFill="WHITE" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="390.0" text="&gt;" textFill="WHITE" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="9.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
